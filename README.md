@@ -1,117 +1,123 @@
 # Store Rating Management Application
 
-**Output Images**
-![Image Alt](https://github.com/manish-87/Store-Rating-Management/blob/main/Screenshot%202025-03-15%20073307.png)
-![Image Alt](https://github.com/manish-87/Store-Rating-Management/blob/main/Screenshot%202025-03-15%20073332.png)
-![Image Alt](https://github.com/manish-87/Store-Rating-Management/blob/main/Screenshot%202025-03-15%20073346.png)
-![Image Alt](https://github.com/manish-87/Store-Rating-Management/blob/main/Screenshot%202025-03-15%20073355.png)
-![Image Alt](https://github.com/manish-87/Store-Rating-Management/blob/main/Screenshot%202025-03-15%20073407.png)
-![Image Alt](https://github.com/manish-87/Store-Rating-Management/blob/main/Screenshot%202025-03-15%20073416.png)
-![Image Alt](https://github.com/manish-87/Store-Rating-Management/blob/main/Screenshot%202025-03-15%20073446.png)
-![Image Alt](https://github.com/manish-87/Store-Rating-Management/blob/main/Screenshot%202025-03-15%20073630.png)
-![Image Alt](https://github.com/manish-87/Store-Rating-Management/blob/main/Screenshot%202025-03-15%20073644.png)
-![Image Alt](https://github.com/manish-87/Store-Rating-Management/blob/main/Screenshot%202025-03-15%20073654.png)
-![Image Alt](https://github.com/manish-87/Store-Rating-Management/blob/main/Screenshot%202025-03-15%20073704.png)
-![Image Alt](https://github.com/manish-87/Store-Rating-Management/blob/main/Screenshot%202025-03-15%20073711.png)
+**Output Images**  
+![Dashboard](https://github.com/raju2703/Store_Rating_App/blob/main/screenshots/dashboard.png)
+![User Login](https://github.com/raju2703/Store_Rating_App/blob/main/screenshots/user-login.png)
+![Admin Panel](https://github.com/raju2703/Store_Rating_App/blob/main/screenshots/admin-panel.png)
+![Store Owner View](https://github.com/raju2703/Store_Rating_App/blob/main/screenshots/store-owner-view.png)
+![Rating Page](https://github.com/raju2703/Store_Rating_App/blob/main/screenshots/rating-page.png)
+![Password Update](https://github.com/raju2703/Store_Rating_App/blob/main/screenshots/password-update.png)
+<!-- Add or update image paths in your repo under /screenshots -->
+
+---
 
 ## 🚀 Overview
-A web application that enables users to submit and manage ratings for stores registered on the platform. It features role-based access for different types of users.
 
-## 🛠️ Technology Stack
+A full-stack web application that enables users to submit and manage ratings for stores registered on the platform. It supports **role-based access** for users, store owners, and administrators.
 
-- **Backend**: ExpressJs / Loopback / NestJs (Choose one)
-- **Database**: PostgreSQL / MySQL
-- **Frontend**: ReactJs
+---
 
-## 🎯 Functional Requirements
+## 🛠️ Tech Stack
 
-### 🌟 User Roles
+- **Backend**: ExpressJS
+- **Database**: MySQL
+- **Frontend**: ReactJS (Vite)
 
-- **System Administrator**
-- **Normal User**
+---
+
+## 👥 User Roles
+
+- **Admin**
+- **User**
 - **Store Owner**
 
 ---
 
-## 🔐 Single Authentication System
-- A unified login and registration system for all users.
+## 🔐 Authentication
 
-## 🔑 User Roles & Functionalities
+A single login and registration system for all user roles.
 
-### **System Administrator**
-- Add new stores, normal users, and admin users.
-- Dashboard displaying:
-  - Total number of users
-  - Total number of stores
-  - Total number of submitted ratings
-- Manage users (create, list, filter, view details).
-- Manage stores (list with details).
-- Logout functionality.
+---
 
-### **Normal User**
-- Signup and login functionality.
-- View and search store listings by name or address.
-- Submit and modify store ratings (1-5).
-- Update their password after login.
-- Logout functionality.
+## 🧩 Functionalities by Role
 
-### **Store Owner**
-- Login and update their password.
-- Dashboard to view:
-  - List of users who rated their store.
-  - Average rating of their store.
-- Logout functionality.
+### 👨‍💼 Admin
+- Add/view/edit/delete stores and users
+- Dashboard with total users, stores, and ratings
+- Filter/search users and stores
+- Logout
+
+### 🙍‍♂️ User
+- Register/login
+- View/search stores
+- Submit and update ratings (1-5 stars)
+- Update password
+- Logout
+
+### 🏪 Store Owner
+- Login and update password
+- View list of users who rated their store
+- See average rating
+- Reply to ratings
+- Logout
+
+---
 
 ## ✔️ Form Validations
-- **Name**: Min 20 characters, Max 60 characters
+
+- **Name**: 20–60 characters
 - **Address**: Max 400 characters
-- **Password**: 8-16 characters, at least one uppercase letter, one special character
-- **Email**: Standard email format validation
+- **Email**: Valid format
+- **Password**: 8–16 characters, 1 uppercase, 1 special character
 
-## 🔍 Additional Features
-- Sorting (ascending/descending) in tables by fields like Name, Email, etc.
-- Clean and best-practice-oriented database schema.
+---
 
-## 🚀 Getting Started
+## 🔍 Features
 
-### **1. Backend Setup**
+- Table sorting (name, email, etc.)
+- Average rating display
+- Secure password handling
+- Modular clean database schema
+- Role-based routing and dashboards
 
-Navigate to your backend directory:
+---
 
-```sh
-cd server
+## ⚙️ Getting Started
+
+### Backend Setup
+
+```bash
+cd backend
 npm install
-```
 
-Configure your database connection in `.env` file:
+Configure your database connection in .env file:
 
-```env
+env
 DATABASE_URL=postgresql://username:password@localhost:5432/your-database-name
-```
+
 
 Then start backend:
 
-```sh
+```bash
 npm run dev
-```
 
-Backend runs at `http://localhost:3000`
+Backend runs at http://localhost:4000
 
 For using super admin use these 
 
-```
-admin@example.com
-Admin123!
-```
+Email: admin@example.com  
+Password: Admin123!
+
+
 
 ## ⚠️ **Important**
 - Ensure PostgreSQL/MySQL is running.
-- Create your database clearly and set connection URL in your backend `.env` clearly.
+- Create your database clearly and set connection URL in your backend .env clearly.
 
-Example `.env`:
-```env
+Example .env:
+env
 DATABASE_URL=postgresql://postgres:yourpassword@localhost:5432/your-database-name
-```
+
 
 ---
 
@@ -128,6 +134,4 @@ Specify clearly here if needed (MIT, etc.)
 
 ---
 
-Made with ❤️ by [Manish](https://github.com/manish-87)
-```
-
+Made with ❤️ by [Raju Jadhav](https://github.com/raju2703)
