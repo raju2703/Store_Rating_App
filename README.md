@@ -1,10 +1,19 @@
 # Store Rating Management Application
 
 **Output Images**  
+ Dashboard : 
 ![Dashboard](https://github.com/raju2703/Store_Rating_App/blob/d2f3b847d754433b00b2d99ace5d52e50f4e66ea/Screenshot%202025-06-04%20203643.png)
+
+User Dashboard :
 ![User Login](https://github.com/raju2703/Store_Rating_App/blob/d2f3b847d754433b00b2d99ace5d52e50f4e66ea/Screenshot%202025-06-04%20204007.png)
+
+Admin Dashboard :
 ![Admin Panel](https://github.com/raju2703/Store_Rating_App/blob/d2f3b847d754433b00b2d99ace5d52e50f4e66ea/Screenshot%202025-06-04%20203736.png)
+
+Store Owner Dashboard :
 ![Store Owner View](https://github.com/raju2703/Store_Rating_App/blob/d2f3b847d754433b00b2d99ace5d52e50f4e66ea/Screenshot%202025-06-04%20204226.png)
+
+ Password Update : 
 ![Password Update](https://github.com/raju2703/Store_Rating_App/blob/d2f3b847d754433b00b2d99ace5d52e50f4e66ea/Screenshot%202025-06-04%20204126.png)
 <!-- Add or update image paths in your repo under /screenshots -->
 
