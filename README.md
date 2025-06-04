@@ -141,5 +141,11 @@ Feel free to contribute or raise issues through pull requests.
 Specify clearly here if needed (MIT, etc.)
 
 ---
+---
 
-Made with ❤️ by [Raju Jadhav](https://github.com/raju2703)
+Made with ❤️ by [Raju Jadhav](https://github.com/raju2703)  
+🎓 B.Tech in Computer Science | 📍 Kolhapur, India  
+🔗 [GitHub](https://github.com/raju2703) • [LinkedIn](https://www.linkedin.com/in/raju-jadhav-608505287)
+
+---
+
