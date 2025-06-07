@@ -95,7 +95,7 @@ A single login and registration system for all user roles.
 ### Backend Setup
 
 ```bash
-cd backend
+cd server
 npm install
 
 Configure your database connection in .env file:
@@ -104,7 +104,7 @@ env
 DATABASE_URL=postgresql://username:password@localhost:5432/your-database-name
 
 
-Then start backend:
+Then start server:
 
 ```bash
 npm run dev
