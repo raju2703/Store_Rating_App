@@ -89,9 +89,10 @@ All dashboards are role-sensitive and dynamically rendered upon login. Unauthori
    cd Store_Rating_App
    ```
 
-2. **Install dependencies:**
+2. **Install dependencies for server :**
 
    ```bash
+   cd backend
    npm install
    ```
 
@@ -101,7 +102,20 @@ All dashboards are role-sensitive and dynamically rendered upon login. Unauthori
    npm run dev
    ```
 
-4. **Launch in browser:**
+4. **Install dependencies for frontend :**
+   
+   ```bash
+   cd ../frontend
+   npm install
+   ```
+5. **Run the development frontend:**
+
+   ```bash
+   npm run dev
+   ``` 
+
+
+6. **Launch in browser:**
 
    ```
    http://localhost:5173
