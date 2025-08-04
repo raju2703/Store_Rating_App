@@ -1,0 +1,32 @@
+User 1
+Full Name: Alice Johnson
+
+Email: alice.johnson@testmail.com
+
+Address: 89 Maple Avenue, Austin, TX 73301
+
+Password: Bright@2024
+
+Role: Admin
+
+User 2
+Full Name: Brian Smith
+
+Email: b.smith@maildemo.org
+
+Address: 456 Oak Lane, Denver, CO 80203
+
+Password: Welcome#89
+
+Role: user
+
+User 3
+Full Name: Clara Lee
+
+Email: clara.lee@example.net
+
+Address: 321 Pine Blvd, Seattle, WA 98101
+
+Password: 123PassWord!12
+
+Role: owner
